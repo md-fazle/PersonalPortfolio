@@ -1,0 +1,78 @@
+.contact-container {
+    text-align: center;
+    background-color: #011c36;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-item {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between icon and text */
+}
+
+.contact-item i {
+    font-size: 1.5rem;            /* Adjusts icon size */
+    color: #f8f9fa;               /* Sets the icon color */
+    margin-right: 10px;           /* Adds spacing to the right of the icon */
+    margin-top: 0;   
+    margin-top: -4.5px;             /* Adjusts the icon's position from the top */
+    line-height: 1;               /* Keeps the line height consistent */
+    vertical-align: middle;      /* Ensures proper vertical alignment */
+}
+
+.contact-item a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+    /* 3D flip effect on hover */
+    .carousel-item .card {
+        perspective: 1000px; /* Enable 3D perspective */
+    }
+
+    .carousel-item .card .card-body {
+        transition: transform 0.6s ease;
+        transform-style: preserve-3d;
+    }
+
+    .carousel-item .card:hover .card-body {
+        transform: rotateY(5deg); /* Slight 3D rotation effect */
+        transform: rotateX(-5deg); 
+    }
+
+    /* Adding a shadow when the card hovers */
+    .carousel-item .card:hover {
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+        transform: scale(1.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }

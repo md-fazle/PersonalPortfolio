@@ -1,0 +1,159 @@
+/* Main container for page layout */
+ 
+/* Image section (Top) */
+.image-section {
+    flex: 0 1 auto; /* Flex item, not stretched */
+    text-align: center; /* Center image */
+    padding: 20px 0;
+}
+
+.image-top {
+    height: 150px; /* Adjust the image height */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow to the image */
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-top:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+/* Navbar Section */
+.navbar {
+    background-color: #000000;
+    padding: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-link {
+    color: #ddd !important;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+    background-color: #495057;
+}
+
+/* Adjust left alignment of navbar items */
+.content-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20%; /* Adjust margin to center the links */
+}
+
+/* Content section styling */
+.content-section {
+    flex: 1 1 auto; /* Allow content to take remaining space */
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center; /* Center content */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom of the page */
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .image-top {
+        height: 120px; /* Adjust image size for mobile */
+    }
+
+    .navbar-nav {
+        text-align: center; /* Center navbar links on small screens */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px; /* Adjust font size for better readability */
+        padding: 10px 20px; /* Add more padding for mobile */
+    }
+
+    .content-left {
+        margin-left: 0; /* Reset margin for mobile */
+        justify-content: center; /* Center navbar links on mobile */
+    }
+
+    .content-section {
+        padding: 15px; /* Adjust padding for mobile devices */
+    }
+
+    .footer {
+        padding: 10px; /* Adjust footer padding for smaller screens */
+    }
+}
+
+/* Responsive design for medium screens (tablets) */
+@media (max-width: 992px) {
+    .image-top {
+        height: 130px; /* Adjust image size for tablets */
+    }
+
+    .content-left {
+        margin-left: 10%; /* Adjust margin for tablets */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 18px; /* Increase font size for tablets */
+        padding: 12px 24px; /* Adjust padding */
+    }
+
+    .content-section {
+        padding: 18px; /* Adjust padding for tablets */
+    }
+}
+
+/* Large screen adjustments (desktops) */
+@media (min-width: 1200px) {
+    .navbar-nav .nav-link {
+        font-size: 18px; /* Larger font for desktops */
+        padding: 12px 20px; /* Adjust padding for larger screens */
+    }
+
+    .content-left {
+        margin-left: 30%; /* Wider margin for larger screens */
+    }
+
+    .content-section {
+        padding: 30px; /* More padding for desktop */
+    }
+}
+
+
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .image-top {
+        height: 120px; /* Smaller image size on mobile */
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .content-section {
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}

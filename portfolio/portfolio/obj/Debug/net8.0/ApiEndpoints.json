@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "portfolio.Controllers.ProfileImageApiController",
+    "Method": "GetImages",
+    "RelativePath": "api/ProfileImageApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

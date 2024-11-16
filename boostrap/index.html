@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+    <canvas id="canva"></canvas>
+    <div class="container mt-5">
+        <div class="card js-card" style="width: 21rem; height: 38rem;">
+            <div class="card-content front-content">
+                <img id="dynamic-image-1" class="card-img-top" alt="Dynamic Image" style="height: 17rem; object-fit: cover;">
+                <div class="card-body">
+                    <h5>Welcome!</h5>
+                    <p class="card-text">
+                        Hi, <b>I'm Fazle Rabbi</b>, a software engineer from Bangladesh. I specialize in developing both frontend and backend solutions, with a passion for creating efficient, user-friendly applications.
+                    </p>
+                    <a href="dashboard.html" class="btn btn-primary mt-3">
+                        Go Next <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-content back-content">
+                <div class="card-body">
+                    <h1 class="card-text" style="color: rgb(87, 149, 220);">Looking for Software Engineer</h1>
+                    <p class="card-text">
+                        If you're looking for a skilled software engineer, look no further! I am dedicated to delivering high-quality software solutions that meet your needs. Let's work together to turn your ideas into reality.
+                    </p>
+                    <img src="Images/software_1.jpg" class="card-img-top" alt="software" style="height: 12rem; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        let cardTransitionTime = 800;
+        let showDuration = 7000; // Time the card stays flipped (7 seconds in this case)
+        let $card = $('.js-card');
+        let switching = false;
+
+        // Function to flip the card
+        function flipCard() {
+            if (switching) {
+                return false;
+            }
+            switching = true;
+
+            $card.toggleClass('is-switched');
+            window.setTimeout(function () {
+                $card.children().toggleClass('is-active');
+                switching = false;
+            }, cardTransitionTime / 2);
+        }
+
+        // Automatically flip the card when the document is ready
+        $(document).ready(function() {
+            // Fetch dynamic data from your API
+            $.ajax({
+                url: 'https://localhost:7013/api/ProfileImageApi', // Ensure the correct API endpoint
+                method: 'GET',
+                success: function(data) {
+                    console.log('API response:', data); // Log the response
+                    if (data.length > 0) {
+                        // Construct full URL to serve the image
+                        const baseUrl = 'https://localhost:7013'; // Base URL of your backend
+                        const fullImageUrl = `${baseUrl}${data[0].imgUrl}`;
+
+                        $('#dynamic-image-1').attr('src', fullImageUrl);
+                        console.log('Image URL set to:', fullImageUrl); // Log for debugging
+                    } else {
+                        console.warn('No images found in the API response.');
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error fetching data:', status, error, xhr.responseText); // Log detailed error info
+                }
+            });
+
+            // Set a timeout for card flip
+            setTimeout(function() {
+                flipCard(); // Flip the card
+                setTimeout(flipCard, showDuration); // Flip back after 'showDuration'
+            }, 500); // Initial delay before first flip
+        });
+    </script>
+    <script src="js/particals.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Portfolio_projects\\portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|f:\\portfolio_projects\\portfolio\\portfolio\\controllers\\profileimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\profileimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|f:\\portfolio_projects\\portfolio\\portfolio\\views\\profileimage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\profileimage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|f:\\portfolio_projects\\portfolio\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|f:\\portfolio_projects\\portfolio\\portfolio\\views\\profileimage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\profileimage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|f:\\portfolio_projects\\portfolio\\portfolio\\views\\profileimage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\profileimage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|f:\\portfolio_projects\\portfolio\\portfolio\\views\\profileimage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B0C428F-2860-43DD-BD41-7D5D1C86B8BF}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\profileimage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\ProfileImage\\Edit.cshtml",
+              "ToolTip": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Edit.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\ProfileImage\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:43:39.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Create.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\ProfileImage\\Create.cshtml",
+              "ToolTip": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Create.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\ProfileImage\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:43:31.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Index.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\ProfileImage\\Index.cshtml",
+              "ToolTip": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Index.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\ProfileImage\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:39:46.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\ProfileImage\\Delete.cshtml",
+              "ToolTip": "F:\\Portfolio_projects\\portfolio\\portfolio\\Views\\ProfileImage\\Delete.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\ProfileImage\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:37:16.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileImageController.cs",
+              "DocumentMoniker": "F:\\Portfolio_projects\\portfolio\\portfolio\\Controllers\\ProfileImageController.cs",
+              "RelativeDocumentMoniker": "portfolio\\Controllers\\ProfileImageController.cs",
+              "ToolTip": "F:\\Portfolio_projects\\portfolio\\portfolio\\Controllers\\ProfileImageController.cs",
+              "RelativeToolTip": "portfolio\\Controllers\\ProfileImageController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwGYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T07:15:52.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Portfolio_projects\\portfolio\\portfolio\\Program.cs",
+              "RelativeDocumentMoniker": "portfolio\\Program.cs",
+              "ToolTip": "F:\\Portfolio_projects\\portfolio\\portfolio\\Program.cs",
+              "RelativeToolTip": "portfolio\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T04:49:25.003Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
